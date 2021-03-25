@@ -23,4 +23,10 @@ Contents:
 
 10. Graphs
 
-11. Hashing Technique
+11. Sorting Technique
+
+12. Hashing Technique
+
+Also contains popular Algorithms
+
+Happy Coding!
