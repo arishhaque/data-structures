@@ -21,12 +21,14 @@ Contents:
 
 9. AVL Trees
 
-10. Graphs
+10. Heap
 
-11. Sorting Technique
+11. Graphs
 
-12. Hashing Technique
+12. Sorting Technique
 
-Also contains popular Algorithms
+13. Hashing Technique
+
+This Repo also contains popular Algorithms
 
 Happy Coding!
