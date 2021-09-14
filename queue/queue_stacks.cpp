@@ -28,6 +28,12 @@ void QueueUsingStacks::enqueue(int x) {
 int QueueUsingStacks::dequeue() {
 
     int x = -1;
+    if(!stk2.empty()){
+            
+            x = stk2.top();
+            stk2.pop();
+            return x;
+    }
     if(stk1.empty()) {
 
         x = stk2.top();
@@ -86,7 +92,8 @@ int main() {
 
     cout << "Dequeue: " << flush;
     cout << qs.dequeue() << endl;
-
+    
+    cout << "Enqueue 11: " << flush;
     qs.enqueue(11);
 
     cout << "Display: " << endl;
