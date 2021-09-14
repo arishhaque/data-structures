@@ -34,21 +34,14 @@ int QueueUsingStacks::dequeue() {
             stk2.pop();
             return x;
     }
-    if(stk1.empty()) {
+    while(!stk1.empty()) {
 
-        x = stk2.top();
-        stk2.pop();
-    
-    } else {
-
-        while(!stk1.empty()) {
-
-            stk2.push(stk1.top());
-            stk1.pop();
-        }
-        x = stk2.top();
-        stk2.pop();
+        stk2.push(stk1.top());
+        stk1.pop();
     }
+
+    x = stk2.top();
+    stk2.pop();
 
     return x;
 }
