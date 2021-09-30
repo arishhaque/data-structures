@@ -3,11 +3,11 @@ Implementation of Data Structures using C++
 
 Contents:
 
-1. Recursion
+1. Strings
 
-2. Strings
+2. Arrays
 
-3. Arrays
+3. Recursion
 
 4. Linked List
 
@@ -25,9 +25,9 @@ Contents:
 
 11. Graphs
 
-12. Sorting Technique
+12. Sorting
 
-13. Hashing Technique
+13. Hashing
 
 This Repo also contains popular Algorithms
 
